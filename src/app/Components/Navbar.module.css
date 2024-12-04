@@ -1,0 +1,84 @@
+
+/* components/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black; 
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin: 0 15px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: blue;
+}
+
+.menuIcon {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+}
+
+.active {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: black; 
+    width: 200px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .navLinks li {
+    margin: 20px 0;
+  }
+
+  .menuIcon {
+    display: flex;
+  }
+}

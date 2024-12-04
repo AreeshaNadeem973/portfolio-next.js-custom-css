@@ -1,0 +1,47 @@
+.footer {
+    background-color: white;
+    color: black;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .connectText {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .iconLink {
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .iconLink:hover {
+    color: #4b5563; /* Darker gray color on hover */
+  }
+  
+  .iconLink:first-child:hover {
+    color: #3b82f6; /* Blue color for GitHub */
+  }
+  
+  .iconLink:last-child:hover {
+    color: #60a5fa; /* Lighter blue color for LinkedIn */
+  }
+  
+  .copyText {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #333;
+  }
+  

@@ -1,0 +1,101 @@
+.skillsContainer {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bodyFont {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .skillsHeading {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    letter-spacing: 2px;
+  }
+  
+  .skillsSection {
+    display: flex;
+    flex-wrap: nowrap; /* No wrapping, to make the boxes stay in one line */
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .skillBox {
+    width: 300px; /* Adjust width to control the size of the box */
+    padding: 1.5rem;
+    background-color: #2d2d2d;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skillBox:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skillContent {
+    text-align: center;
+  }
+  
+  .iconBox {
+    background-color: #4c51bf;
+    color: white;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .skillTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .skillDescription {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .skillsHeading {
+      font-size: 1.5rem;
+    }
+  
+    .skillsSection {
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+  
+    .skillBox {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

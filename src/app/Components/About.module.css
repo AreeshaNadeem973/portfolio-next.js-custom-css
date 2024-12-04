@@ -1,0 +1,67 @@
+/* About.module.css */
+.aboutContainer {
+    background-color: black;
+    color: white;
+  }
+  
+  .aboutSection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutBox {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .textContainer {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1a202c; /* Dark grey */
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4a5568; /* Grey */
+    margin-bottom: 1.5rem;
+  }
+  
+  .skillsButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #4299e1; /* Blue */
+    color: white;
+    border-radius: 9999px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+  }
+  
+  .skillsButton:hover {
+    background-color: #3182ce; /* Darker blue */
+  }
+  
